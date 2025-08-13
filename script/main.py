@@ -2,14 +2,13 @@ import json
 import common
 import requests
 from bs4 import BeautifulSoup
-from base64 import b64encode
 
 def write_markdown(data, description):
     title = data['title']
     author = data['author']
     date = data['time']
     content = data['content']
-    description = b64encode(description.encode('utf-8'))
+    description = "".join(char for char in description if not char.isascii() or char.isalnum() or char.isspace())
 
     print(f'Writing article: "{title}" by {author}...')
 
@@ -66,4 +65,6 @@ if __name__ == "__main__":
         user_articles = fetch_user_articles(uid)
         all_articles += user_articles
         common.write_json(f'./data/articles.{uid}.json', user_articles)
+        print(f'Finished fetching articles for user {uid}.')
     common.write_json(f'./data/articles.json', all_articles)
+    print('All articles fetched and saved.')
