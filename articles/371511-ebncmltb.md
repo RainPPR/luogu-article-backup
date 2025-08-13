@@ -1,7 +1,17 @@
 ---
 title: 题解：P10450 [USACO03MAR] Best Cow Fences G
 date: 1716514333
-description: b'6ICD6JmR5py057Sg566X5rOV44CCCgrmnprkuL7lt6blj7Pnq6/ngrnvvIzliY3nvIDlkozorqHnrpflubPlnYflgLzjgIIKCui/meagt+WBmuaYryAkXG1hdGhjYWwgTyhuXjIpJCDnmoTjgIIKCuiAg+iZkeW+iOe7j+WFuOeahOW5s+Wdh+WAvOeahOaAneaDs++8jOWwhuS4gOS4quW6j+WIl+WHj+WOu+WFtuW5s+Wdh+WAvO+8jOWFtuWSjOS4uumbtuOAggoK5aaC5p6c5oiR5Lus5LqM5YiG5LiA5Liq5pWw77yM54S25ZCO5om+5Yiw5LiA5Liq5bqP5YiX77yM5YeP5Y675LqM5YiG55qE5bmz5Z2H5YC877yM5aSn5LqO562J5LqO6Zu25YiZ5Y+v6KGM44CCCgrkuo7mmK/miJE='
+description: 考虑朴素算法。
+
+枚举左右端点，前缀和计算平均值。
+
+这样做是 mathcal On2 的。
+
+考虑很经典的平均值的思想，将一个序列减去其平均值，其和为零。
+
+如果我们二分一个数，然后找到一个序列，减去二分的平均值，大于等于零则可行。
+
+于是我
 author: 371511
 ---
 

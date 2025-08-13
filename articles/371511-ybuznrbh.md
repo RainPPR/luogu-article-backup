@@ -1,7 +1,13 @@
 ---
 title: P1485 火枪打怪 题解
 date: 1691640916
-description: b'5paw5omL56ys5LiA5qyh5YaZ6aKY6KejIHF3cQoKfn7lm6DkuLrov5npgZPpopjmiJHmlbTmlbTosIPkuobkuIDmlbTlpKl+fu+8jOaJgOS7peaIkeWwveWPr+iDveiusueahOivpue7huWPiOeugOa0geOAggoKIyMg6aKY55uu5o+P6L+wCgrlhbHmnIkgJG4kIOS4quaAqueJqe+8jOihgOmHj+S4uiAkbV9pJO+8jOeOsOWcqOimgeaJk+atu+i/meS6m+aAqueJqe+8iOihgOmHjyAkPCAwJO+8ieOAguavj+asoeaUu+WHu+esrCAkaSQg5Liq5oCq54mp77yM5a6D5Lya5o6JICRwJCDmu7TooYDvvIzlkIzml7blt6bkvqfnrKw='
+description: 新手第一次写题解 qwq
+
+因为这道题我整整调了一整天，所以我尽可能讲的详细又简洁。
+
+ 题目描述
+
+共有 n 个怪物，血量为 mi，现在要打死这些怪物（血量  0）。每次攻击第 i 个怪物，它会掉 p 滴血，同时左侧第
 author: 371511
 ---
 

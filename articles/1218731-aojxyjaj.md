@@ -1,7 +1,15 @@
 ---
 title: 题解：CF1098D Eels
 date: 1721956541
-description: b'VVBEIDIwMjQwNzI2IOmimOino+iiq+aJk+WbnuWQju+8muS/ruaUueS6hue8uuWwkeeahOmAl+WPt++8iAoKIyMjIOWIhuaekOWQiOW5tuetlueVpQoK6K6+5LiA5qyh5ZCI5bm2ICRBJCDlkowgJEIk77yM5oiR5Lus6ZKm5a6aICRBXGdlIEIk44CCCgroi6Xov5nmrKHlkIjlubbmmK/ljbHpmannmoTvvIzpgqPkuYjmnIkgJEFcbGUyQiTvvIwKCuaIkeS7rOiAg+iZkeivgeaYjue7k+iuuu+8jCoq5LuO5bCP5Yiw5aSn5ZCI5bm25Y+v5Lul5pyA5aSn5YyW5Y2x6Zmp5ZCI5bm25qyh5pWw'
+description: UPD 20240726 题解被打回后：修改了缺少的逗号（
+
+ 分析合并策略
+
+设一次合并 A 和 B，我们钦定 Age B。
+
+若这次合并是危险的，那么有 Ale2B，
+
+我们考虑证明结论，从小到大合并可以最大化危险合并次数
 author: 1218731
 ---
 

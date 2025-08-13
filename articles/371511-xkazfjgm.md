@@ -1,7 +1,13 @@
 ---
 title: CF1884B Haunted House 题解
 date: 1698660806
-description: b'5YCf6Ym05LqG5b2T5YmNIFvlj6bkuIDnr4fpopjop6NdKGh0dHBzOi8vd3d3Lmx1b2d1LmNvbS5jbi9ibG9nL19wb3N0LzY1NTMwOSnvvIzliqDkuobmm7TlpJrnmoTor7TmmI7jgIIKCiMjIOeugOWMlumimOaEjwoK57uZ5a6a5LiA5Liq6ZW/5bqm5Li6ICRuJCDnmoTkuozov5vliLbkuLIgJFMk77yM5rGCICRmKDEpLGYoMiksXGNkb3RzLGYobikk44CCCgrlhbY='
+description: 借鉴了当前 另一篇题解httpswwwluogucomcnblogpost655309，加了更多的说明。
+
+ 简化题意
+
+给定一个长度为 n 的二进制串 S，求 f1f2cdotsfn。
+
+其
 author: 371511
 ---
 

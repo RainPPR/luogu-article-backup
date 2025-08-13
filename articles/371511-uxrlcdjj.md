@@ -1,7 +1,9 @@
 ---
 title: 题解：P10590 磁力块
 date: 1723083437
-description: b'6aKY55uu77yaW1AxMDU5MCDno4HlipvlnZddKGh0dHBzOi8vd3d3Lmx1b2d1LmNvbS5jbi9wcm9ibGVtL1AxMDU5MCnvvIxbQ0YxOThFIEdyaXBwaW5nIFN0b3J5XShodHRwczovL3d3dy5sdW9ndS5jb20uY24vcHJvYmxlbS9DRjE5OEUp44CCCgrotKrlv4PnmoTogIM='
+description: 题目：P10590 磁力块httpswwwluogucomcnproblemP10590，CF198E Gripping StoryhttpswwwluogucomcnproblemCF198E。
+
+贪心的考
 author: 371511
 ---
 

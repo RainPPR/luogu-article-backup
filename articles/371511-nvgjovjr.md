@@ -1,7 +1,9 @@
 ---
 title: 2024 新高考一卷 19 题
 date: 1718112115
-description: b'IyMg6aKY55uu5o+P6L+wCgrorr4gJG0kIOS4uuato+aVtOaVsO+8jOaVsOWIlyAkYV8xLGFfMixcZG90cyxhX3s0bSsyfSQg5piv5YWs5beu5LiN5Li6ICQwJCDnmoTnrYnlt67mlbDliJfvvIzoi6Xku47kuK3liKDljrvkuKTpobkgJGFfaSQg5ZKMICRhX2pcOyhpPGopJCDlkI7liankvZnnmoQgJDRtJCDpobnlj6/ku6XooqvlubPlnYfliIbkuLogJG0kIOe7hO+8jOS4lOavj+e7hOeahCAkNCQg5Liq'
+description:  题目描述
+
+设 m 为正整数，数列 a1a2dotsa4m2 是公差不为 0 的等差数列，若从中删去两项 ai 和 ajij 后剩余的 4m 项可以被平均分为 m 组，且每组的 4 个
 author: 371511
 ---
 
