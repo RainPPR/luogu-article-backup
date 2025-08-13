@@ -1,19 +1,7 @@
 ---
 title: POJ3233 Matrix Power Series 题解
 date: 1709965291
-description: 题目描述：
-
-给定一个 ntimes n 的矩阵 A，和一个正整数 k，
-
-求一个矩阵  SAA2A3dotsAk。
-
-题解：
-
-考虑矩阵乘法优化线性递推。
-
-设 SiAA2A3dotsAk。
-
-
+description: 题目描述： 给定一个 ntimes n 的矩阵 A，和一个正整数 k， 求一个矩阵 SAA2A3dotsAk。 题解： 考虑矩阵乘法优化线性递推。 设 SiAA2A3dotsAk。
 author: 371511
 ---
 
