@@ -3,12 +3,22 @@ import common
 import requests
 from bs4 import BeautifulSoup
 
+def desc_encode(str):
+    words = str.split()
+
+    cleaned_words = []
+    for word in words:
+        cleaned_word = "".join(char for char in word if not char.isascii() or char.isalnum())
+        cleaned_words.append(cleaned_word)
+
+    return " ".join(cleaned_words)
+
 def write_markdown(data, description):
     title = data['title']
     author = data['author']
     date = data['time']
     content = data['content']
-    description = "".join(char for char in description if not char.isascii() or char.isalnum() or char.isspace())
+    description = desc_encode(description)
 
     print(f'Writing article: "{title}" by {author}...')
 
