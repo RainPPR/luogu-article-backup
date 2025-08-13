@@ -20,6 +20,9 @@ def write_markdown(data, description):
     content = data['content']
     description = desc_encode(description)
 
+    if title[0] == '[':
+        title = '![]' + title
+
     print(f'Writing article: "{title}" by {author}...')
 
     markdown = f'''---
